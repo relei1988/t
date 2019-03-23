@@ -1,0 +1,213 @@
+2018-08-07 23:35:18,957 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-07 23:35:18,961 INFO daemonizing the supervisord process
+2018-08-07 23:35:18,961 INFO supervisord started with pid 12180
+2018-08-07 23:35:19,963 INFO spawned: 'wechat_robot' with pid 12181
+2018-08-07 23:35:19,965 INFO spawned: 'shadowsocks' with pid 12182
+2018-08-07 23:35:19,965 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-07 23:35:19,968 INFO spawned: 'ssmgrss' with pid 12183
+2018-08-07 23:35:20,138 INFO exited: wechat_robot (exit status 1; not expected)
+2018-08-07 23:35:21,726 INFO spawned: 'wechat_robot' with pid 12193
+2018-08-07 23:35:21,726 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-07 23:35:21,727 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-07 23:35:21,727 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-07 23:35:21,911 INFO exited: wechat_robot (exit status 1; not expected)
+2018-08-07 23:35:23,915 INFO spawned: 'wechat_robot' with pid 12286
+2018-08-07 23:35:23,915 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-07 23:35:24,054 INFO exited: wechat_robot (exit status 1; not expected)
+2018-08-07 23:35:27,058 INFO spawned: 'wechat_robot' with pid 12287
+2018-08-07 23:35:27,059 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-07 23:35:27,059 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-08-07 23:35:27,200 INFO exited: wechat_robot (exit status 1; not expected)
+2018-08-07 23:35:28,201 INFO gave up: wechat_robot entered FATAL state, too many start retries too quickly
+2018-08-08 00:06:58,745 WARN received SIGTERM indicating exit request
+2018-08-08 00:06:58,745 INFO waiting for shadowsocks, ssmgrss to die
+2018-08-08 00:06:58,748 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-08 00:06:59,751 INFO stopped: shadowsocks (exit status 0)
+2018-08-08 00:06:59,819 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-08 00:06:59,822 INFO daemonizing the supervisord process
+2018-08-08 00:06:59,822 INFO supervisord started with pid 13512
+2018-08-08 00:07:00,824 INFO spawned: 'wechat_robot' with pid 13513
+2018-08-08 00:07:00,826 INFO spawned: 'shadowsocks' with pid 13514
+2018-08-08 00:07:00,826 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 00:07:00,827 INFO spawned: 'ssmgrss' with pid 13515
+2018-08-08 00:07:02,268 INFO success: wechat_robot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 00:07:02,268 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 00:07:02,269 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 00:07:02,269 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 00:07:04,271 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 00:07:07,658 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 00:07:07,658 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-08-08 01:14:10,420 WARN received SIGTERM indicating exit request
+2018-08-08 01:14:10,420 INFO waiting for wechat_robot, shadowsocks, ssmgrss to die
+2018-08-08 01:14:10,423 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-08 01:14:11,134 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-08 01:14:11,137 INFO daemonizing the supervisord process
+2018-08-08 01:14:11,137 INFO supervisord started with pid 16492
+2018-08-08 01:14:11,425 INFO stopped: shadowsocks (exit status 0)
+2018-08-08 01:14:11,427 INFO stopped: wechat_robot (terminated by SIGTERM)
+2018-08-08 01:14:12,140 INFO spawned: 'wechat_robot' with pid 16493
+2018-08-08 01:14:12,141 INFO spawned: 'shadowsocks' with pid 16494
+2018-08-08 01:14:12,142 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 01:14:12,143 INFO spawned: 'ssmgrss' with pid 16495
+2018-08-08 01:14:13,588 INFO success: wechat_robot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 01:14:13,588 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 01:14:13,588 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 01:14:13,588 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 01:14:15,591 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 01:14:18,594 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 01:14:18,595 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-08-08 17:11:31,857 WARN received SIGTERM indicating exit request
+2018-08-08 17:11:31,857 INFO waiting for wechat_robot, shadowsocks, ssmgrss to die
+2018-08-08 17:11:31,860 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-08 17:11:32,862 INFO stopped: shadowsocks (exit status 0)
+2018-08-08 17:11:32,871 INFO stopped: wechat_robot (terminated by SIGTERM)
+2018-08-08 17:13:17,533 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-08 17:13:17,535 INFO daemonizing the supervisord process
+2018-08-08 17:13:17,535 INFO supervisord started with pid 12004
+2018-08-08 17:13:18,538 INFO spawned: 'wechat_robot' with pid 12005
+2018-08-08 17:13:18,539 INFO spawned: 'shadowsocks' with pid 12006
+2018-08-08 17:13:18,539 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 17:13:18,540 INFO spawned: 'ssmgrss' with pid 12007
+2018-08-08 17:13:19,987 INFO success: wechat_robot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 17:13:19,987 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 17:13:19,988 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 17:13:19,988 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 17:13:21,990 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 17:13:24,994 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 17:13:24,994 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-08-08 17:13:53,783 WARN received SIGTERM indicating exit request
+2018-08-08 17:13:53,783 INFO waiting for wechat_robot, shadowsocks, ssmgrss to die
+2018-08-08 17:13:53,786 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-08 17:13:54,793 INFO stopped: shadowsocks (exit status 0)
+2018-08-08 17:13:54,795 INFO stopped: wechat_robot (terminated by SIGTERM)
+2018-08-08 23:04:53,702 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-08 23:04:53,704 INFO daemonizing the supervisord process
+2018-08-08 23:04:53,705 INFO supervisord started with pid 26488
+2018-08-08 23:04:54,707 INFO spawned: 'shadowsocks' with pid 26489
+2018-08-08 23:04:54,708 INFO spawned: 'kcp' with pid 26490
+2018-08-08 23:04:54,709 INFO spawned: 'ssmgrss' with pid 26491
+2018-08-08 23:04:56,144 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 23:04:56,144 INFO success: kcp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 23:04:56,144 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 23:05:39,633 WARN received SIGTERM indicating exit request
+2018-08-08 23:05:39,634 INFO waiting for shadowsocks, kcp, ssmgrss to die
+2018-08-08 23:05:39,637 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-08 23:05:39,638 INFO stopped: kcp (terminated by SIGTERM)
+2018-08-08 23:05:39,652 INFO stopped: shadowsocks (exit status 0)
+2018-08-08 23:05:40,340 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-08 23:05:40,342 INFO daemonizing the supervisord process
+2018-08-08 23:05:40,343 INFO supervisord started with pid 26605
+2018-08-08 23:05:41,345 INFO spawned: 'shadowsocks' with pid 26606
+2018-08-08 23:05:41,346 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 23:05:41,347 INFO spawned: 'ssmgrss' with pid 26607
+2018-08-08 23:05:42,792 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 23:05:42,793 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 23:05:42,793 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 23:05:44,795 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 23:05:47,798 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-08 23:05:47,799 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-08-11 13:21:32,135 WARN received SIGTERM indicating exit request
+2018-08-11 13:21:32,135 INFO waiting for shadowsocks, ssmgrss to die
+2018-08-11 13:21:32,139 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-11 13:21:33,144 INFO stopped: shadowsocks (exit status 0)
+2018-08-11 13:46:21,214 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-11 13:46:21,216 INFO daemonizing the supervisord process
+2018-08-11 13:46:21,217 INFO supervisord started with pid 13425
+2018-08-11 13:46:22,219 INFO spawned: 'wechat_robot' with pid 13426
+2018-08-11 13:46:22,220 INFO spawned: 'shadowsocks' with pid 13427
+2018-08-11 13:46:22,220 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-11 13:46:22,221 INFO spawned: 'ssmgrss' with pid 13428
+2018-08-11 13:46:22,337 INFO exited: wechat_robot (exit status 1; not expected)
+2018-08-11 13:46:23,656 INFO spawned: 'wechat_robot' with pid 13438
+2018-08-11 13:46:23,657 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-11 13:46:23,657 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-11 13:46:23,657 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-11 13:46:23,802 INFO exited: wechat_robot (exit status 1; not expected)
+2018-08-11 13:46:25,805 INFO spawned: 'wechat_robot' with pid 13535
+2018-08-11 13:46:25,806 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-11 13:46:25,926 INFO exited: wechat_robot (exit status 1; not expected)
+2018-08-11 13:46:28,930 INFO spawned: 'wechat_robot' with pid 13536
+2018-08-11 13:46:28,931 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-11 13:46:28,931 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-08-11 13:46:29,056 INFO exited: wechat_robot (exit status 1; not expected)
+2018-08-11 13:46:30,057 INFO gave up: wechat_robot entered FATAL state, too many start retries too quickly
+2018-08-11 13:46:42,895 WARN received SIGTERM indicating exit request
+2018-08-11 13:46:42,895 INFO waiting for shadowsocks, ssmgrss to die
+2018-08-11 13:46:42,900 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-11 13:46:43,912 INFO stopped: shadowsocks (exit status 0)
+2018-08-23 21:12:23,063 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-23 21:12:23,068 INFO daemonizing the supervisord process
+2018-08-23 21:12:23,069 INFO supervisord started with pid 28396
+2018-08-23 21:12:24,075 INFO spawned: 'wechat_robot' with pid 28408
+2018-08-23 21:12:24,076 INFO spawned: 'shadowsocks' with pid 28409
+2018-08-23 21:12:24,077 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-23 21:12:24,079 INFO spawned: 'ssmgrss' with pid 28410
+2018-08-23 21:12:25,092 INFO success: wechat_robot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:12:25,093 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:12:25,093 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-23 21:12:25,094 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:12:27,096 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-23 21:12:30,101 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-23 21:12:30,101 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-08-23 21:19:50,081 WARN received SIGTERM indicating exit request
+2018-08-23 21:19:50,098 INFO waiting for wechat_robot, shadowsocks, ssmgrss to die
+2018-08-23 21:19:50,107 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-23 21:19:51,316 INFO stopped: shadowsocks (exit status 0)
+2018-08-23 21:19:51,319 INFO stopped: wechat_robot (terminated by SIGTERM)
+2018-08-23 21:35:05,371 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-08-23 21:35:05,375 INFO daemonizing the supervisord process
+2018-08-23 21:35:05,375 INFO supervisord started with pid 9569
+2018-08-23 21:35:06,378 INFO spawned: 'wechat_robot' with pid 9570
+2018-08-23 21:35:06,379 INFO spawned: 'shadowsocks' with pid 9571
+2018-08-23 21:35:06,380 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-23 21:35:06,381 INFO spawned: 'ssmgrss' with pid 9572
+2018-08-23 21:35:08,257 INFO success: wechat_robot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:35:08,257 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:35:08,257 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-23 21:35:08,257 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:35:10,260 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-23 21:35:13,263 INFO spawnerr: can't find command './server_linux_amd64'
+2018-08-23 21:35:13,263 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-08-23 21:35:25,718 WARN received SIGTERM indicating exit request
+2018-08-23 21:35:25,718 INFO waiting for wechat_robot, shadowsocks, ssmgrss to die
+2018-08-23 21:35:25,723 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-08-23 21:35:26,737 INFO stopped: shadowsocks (exit status 0)
+2018-08-23 21:35:26,740 INFO stopped: wechat_robot (terminated by SIGTERM)
+2018-10-21 01:08:35,939 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-10-21 01:08:35,951 INFO daemonizing the supervisord process
+2018-10-21 01:08:35,951 INFO supervisord started with pid 29460
+2018-10-21 01:08:36,954 INFO spawned: 'wechat_robot' with pid 29472
+2018-10-21 01:08:36,956 INFO spawned: 'shadowsocks' with pid 29473
+2018-10-21 01:08:36,956 INFO spawnerr: can't find command './server_linux_amd64'
+2018-10-21 01:08:36,961 INFO spawned: 'ssmgrss' with pid 29474
+2018-10-21 01:08:38,091 INFO success: wechat_robot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-10-21 01:08:38,091 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-10-21 01:08:38,091 INFO spawnerr: can't find command './server_linux_amd64'
+2018-10-21 01:08:38,092 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-10-21 01:08:40,094 INFO spawnerr: can't find command './server_linux_amd64'
+2018-10-21 01:08:43,098 INFO spawnerr: can't find command './server_linux_amd64'
+2018-10-21 01:08:43,108 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-10-21 01:10:59,874 WARN received SIGTERM indicating exit request
+2018-10-21 01:10:59,874 INFO waiting for wechat_robot, shadowsocks, ssmgrss to die
+2018-10-21 01:10:59,880 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-10-21 01:11:00,883 INFO stopped: shadowsocks (exit status 0)
+2018-10-21 01:11:00,886 INFO stopped: wechat_robot (terminated by SIGTERM)
+2018-12-30 14:04:56,124 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-12-30 14:04:56,133 INFO daemonizing the supervisord process
+2018-12-30 14:04:56,134 INFO supervisord started with pid 5264
+2018-12-30 14:04:57,136 INFO spawned: 'wechat_robot' with pid 5275
+2018-12-30 14:04:57,137 INFO spawned: 'shadowsocks' with pid 5276
+2018-12-30 14:04:57,138 INFO spawnerr: can't find command './server_linux_amd64'
+2018-12-30 14:04:57,139 INFO spawned: 'ssmgrss' with pid 5277
+2018-12-30 14:04:59,047 INFO success: wechat_robot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-30 14:04:59,047 INFO success: shadowsocks entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-30 14:04:59,047 INFO spawnerr: can't find command './server_linux_amd64'
+2018-12-30 14:04:59,047 INFO success: ssmgrss entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-12-30 14:05:01,051 INFO spawnerr: can't find command './server_linux_amd64'
+2018-12-30 14:05:04,056 INFO spawnerr: can't find command './server_linux_amd64'
+2018-12-30 14:05:04,057 INFO gave up: kcp entered FATAL state, too many start retries too quickly
+2018-12-30 14:26:16,183 WARN received SIGTERM indicating exit request
+2018-12-30 14:26:16,196 INFO waiting for wechat_robot, shadowsocks, ssmgrss to die
+2018-12-30 14:26:16,204 INFO stopped: ssmgrss (terminated by SIGTERM)
+2018-12-30 14:26:17,254 INFO stopped: shadowsocks (exit status 0)
+2018-12-30 14:26:17,257 INFO stopped: wechat_robot (terminated by SIGTERM)
